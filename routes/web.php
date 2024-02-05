@@ -118,6 +118,6 @@ Route::get('/calculate/{operation}/{number1}/{number2}', function ($operation, $
 });
 
 
-/* не домашка, пробовал для себя */
+/* не домашка, пробовал для себя, модель тоже для этого*/
 
 Route::get('/customer/{name}', [CustomerController::class, 'findCustomerByName']);
